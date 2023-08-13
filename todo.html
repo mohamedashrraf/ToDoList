@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/todo.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="add-task">
+        <input type="text" />
+        <span class="plus">+</span>
+      </div>
+      <div class="tasks-content">
+        <span class="no-tasks-message">No Tasks To Show</span>
+      </div>
+    </div>
+    <div class="task-stats">
+      <div class="tasks-count">Tasks <span>0</span></div>
+      <div class="tasks-completed">Completed <span>0</span></div>
+    </div>
+
+    <div class="deleteFinish">
+      <div class="deleteAll">
+        <button onclick="deleteAll()">Delete All</button>
+      </div>
+      <div class="finishAll">
+        <button onclick="finishAll()">Finish All</button>
+      </div>
+    </div>
+
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/todo.js"></script>
+  </body>
+</html>
